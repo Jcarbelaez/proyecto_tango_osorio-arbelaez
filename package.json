@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_osorio_arbelaez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jcarbelaez/proyecto_tango_osorio-arbelaez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jcarbelaez/proyecto_tango_osorio-arbelaez/issues"
+  },
+  "homepage": "https://github.com/Jcarbelaez/proyecto_tango_osorio-arbelaez#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
