@@ -21,7 +21,6 @@
 
 // }
 let solicitudVeterinario = prompt("¿Desea solicitar un medico veterinario?");
-solicitudVeterinario.toLowerCase()
 
 if ((solicitudVeterinario == "si") || (solicitudVeterinario == "SI")) {
     alert("Tu solicitud será verificada.");
