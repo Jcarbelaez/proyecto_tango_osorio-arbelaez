@@ -74,11 +74,10 @@ const profesional1 = new profesional("Faustino Asprilla", 33, "Veterinario", "Or
 const profesional2 = new profesional("Carlos Valderrama", 35, "Veterinario", "Fisioterapeuta");
 const profesional3 = new profesional("René Higuita", 32, "Veterinario", "Cirujano");
 
-debugger
-
 //Prompt inicial
 let solicitudVeterinario = confirm("¿Desea solicitar un medico veterinario?");
 
-
+//DOM activar botón "¡Quiero adoptar!"
+const inputButton = document.querySelector("#inputButton")
 
 

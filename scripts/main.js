@@ -26,11 +26,17 @@ while (!solicitudVeterinario) {
     break;
 }
 
-// Filtro de busqueda de mascotas
 
-//Prompt busqueda de mascota
-let ingreseTamaño = prompt("Ingrese busqueda por tamaño de la mascota pequeño, mediano o grande");
-let tamaño = ingreseTamaño.toLowerCase();
-
-let filtroBusquedaMascota = mascotasEnAdopcion.filter(resultado => resultado.tamaño == tamaño);
-console.table(filtroBusquedaMascota);
+//Funcion botón "¡Quiero adoptar!"
+inputButton.addEventListener("click", () => {
+    debugger
+    let confirmacionBusqueda = confirm("¿Desea iniciar el proceso de adopción?")
+    if (confirmacionBusqueda == true) {
+        let ingreseTamaño = prompt("Ingrese busqueda por tamaño de la mascota pequeño, mediano o grande");
+        let tamaño = ingreseTamaño.toLowerCase();
+        let filtroBusquedaMascota = mascotasEnAdopcion.filter(resultado => resultado.tamaño == tamaño);
+        console.table(filtroBusquedaMascota);
+    } else {
+        alert("Ok. Hasta una próxima vez.")
+    }
+})
