@@ -79,5 +79,7 @@ let solicitudVeterinario = confirm("¿Desea solicitar un medico veterinario?");
 
 //DOM activar botón "¡Quiero adoptar!"
 const inputButton = document.querySelector("#inputButton")
+const gridSection = document.querySelector(".grid__section")
 
+const seleccionTamañoMascota = []
 
