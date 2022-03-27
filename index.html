@@ -11,6 +11,8 @@
     <title>Home</title>
     <script defer src="./scripts/variables.js"></script>
     <script defer src="./scripts/main.js"></script>
+    <script defer src="./scripts/storage.js"></script>
+    <!-- <script defer src="./scripts/json.js"></script> -->
 </head>
 
 <body>
@@ -57,17 +59,17 @@
                         </div>
                         <br>
                         <br>
-                        <label for="name">Nombre:</label>
+                        <label for="nombre">Nombre:</label>
                         <br>
-                        <input type="text" name="name" id="name" placeholder="Nombre" required>
+                        <input type="text" name="name" id="nombre" placeholder="Nombre" required>
                         <br>
-                        <label for="name">Apellido:</label>
+                        <label for="apellido">Apellido:</label>
                         <br>
-                        <input type="text" name="" id="name" placeholder="Apellido" required>
+                        <input type="text" name="" id="apellido" placeholder="Apellido" required>
                         <br>
                         <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
                         <br>
-                        <input type="submit" value="Enviar">
+                        <input type="submit" id="enviar" value="Enviar">
                     </form>
                 </div>
             </section>

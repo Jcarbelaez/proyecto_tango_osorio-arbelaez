@@ -45,3 +45,46 @@ const botonTrigger = () => {
 };
 
 botonTrigger()
+
+
+
+
+// CODE WARS
+
+
+// const greet = () => {
+//   const hello = ['h','e','l','l','o'];
+//   const world = ['w','o','r','l','d','!'];
+
+//   const prueba = hello.join ("");
+//   const prueba2 = world.join ("");
+//   const concatenar = `${prueba} ${prueba2}`
+  
+
+
+//   return concatenar
+// }
+
+// console.log(greet())
+
+
+// const points = [100, 40, 34, 57, 29, 72, 57, 88];
+// let sum = 0
+
+// for (let i = 0; i < points.length; i++) {
+//   sum += points[i];
+// }
+// console.log(sum)    
+
+
+// const operacion = (n) => {
+// const resultScores = points.length;
+// console.log(resultScores);
+// const average = sum / resultScores
+// console.log(average);
+// const result = average <= n ? true : false
+// return result
+   
+// }
+
+// console.log(operacion(50));
