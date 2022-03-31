@@ -77,6 +77,7 @@ const profesional3 = new profesional("René Higuita", 32, "Veterinario", "Ciruja
 //Prompt inicial
 let solicitudVeterinario = confirm("¿Desea solicitar un medico veterinario?");
 
+
 //DOM activar botón "¡Quiero adoptar!"
 const inputButton = document.querySelector("#inputButton");
 const gridSection = document.querySelector(".grid__section");

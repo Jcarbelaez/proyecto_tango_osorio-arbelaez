@@ -1,0 +1,30 @@
+/* Footer */
+footer {
+  border-top: 0.1rem solid #e2e2e2;
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8rem;
+}
+
+.footer__navigation {
+  width: 100%;
+}
+
+.footer__navigation a {
+  text-decoration: none;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #141414;
+  font-size: 1.4rem;
+}
+
+.footer__socialMedia img {
+  width: 2rem;
+  height: auto;
+  margin: 2rem;
+}
+/*# sourceMappingURL=footer.css.map */
