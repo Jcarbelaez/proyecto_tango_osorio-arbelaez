@@ -1,0 +1,27 @@
+/* Footer */
+
+footer {
+    border-top: 0.1rem solid rgb(226, 226, 226);
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    padding: 8rem;
+
+}
+
+.footer__navigation {
+    width: 100%;
+}
+
+.footer__navigation a {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    color: rgb(20, 20, 20);
+    font-size: 1.4rem;
+}
+
+.footer__socialMedia img {
+    width: 2rem;
+    height: auto;
+    margin: 2rem;
+}
