@@ -7,15 +7,15 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 2.5rem;
+    margin-top: 22.5px;
 
     h1 {
         text-align: right;
         padding-top: 20px;
         padding-right: 30px;
         width: 100%;
-        top: 4rem;
-        left: 80rem;
+        top: 40px;
+        left: 800px;
         color: rgb(62, 62, 62);
         font-weight: 500;
         font-size: 3.5rem;
@@ -40,11 +40,11 @@
 .main__button {
     position: absolute;
     text-align: center;
-    right: 3rem;
-    top: 18rem;
-    border-radius: 1.3rem;
-    height: 3.2rem;
-    width: 12rem;
+    right: 30px;
+    top: 180px;
+    border-radius: 13px;
+    height: 32px;
+    width: 120px;
     background-color: rgb(255, 0, 85);
     color: white;
     font-size: 1.4rem;
@@ -67,7 +67,7 @@ main {
     h2 {
         position: relative;
         margin-left: 50px;
-        top: 2rem;
+        top: 20px;
         z-index: 105;
         color: $seconday-color;
         font-size: 3.5rem;
@@ -83,10 +83,10 @@ main {
 }
 
 .section__card {
-    border: 0.1rem solid rgb(226, 226, 226);
-    border-radius: 1.5rem;
-    width: 35rem;
-    margin: 5rem;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 15px;
+    width: 350px;
+    margin: 50px;
     display: flex;
     flex-direction: column;
     font-size: 1.4rem;
@@ -97,22 +97,20 @@ main {
     }
 
     #iframe1 {
-        padding: 0rem;
-        border-radius: 1.5rem 1.5rem 0 0;
+        border-radius: 15px 15px 0 0;
         width: 100%;
     }
 
     #iframe2 {
-        margin-bottom: 17rem;
-        border-radius: 1.5rem 1.5rem 0 0;
+        margin-bottom: 170px;
+        border-radius: 15px 15px 0 0;
         width: 100%;
     }
 
     #iframe3 {
         position: relative;
         flex-direction: row-reverse;
-        padding: 0rem;
-        border-radius: 1.5rem 0 0 0;
+        border-radius: 15px 0 0 0;
         width: 40%;
     }
 
@@ -128,17 +126,17 @@ main {
 
     #card_break_line {
         position: relative;
-        top: -16rem;
-        margin-left: 1rem;
+        top: -160px;
+        margin-left: 10px;
     }
 
     #card_btn_solicitar {
-        position: absolute;
-        border-radius: 1.1rem;
-        width: 7rem;
-        height: 2.8rem;
-        margin-top: -45px;
-        margin-left: 26rem;
+        position: relative;
+        bottom: 18px;
+        border-radius: 10px;
+        width: 70px;
+        height: 30px;
+        margin-left: 260px;
         border: none;
         color: white;
         background-color: rgb(255, 0, 85);
@@ -159,7 +157,7 @@ main {
     width: 60%;
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin: 10px;
 
     &:label {
         width: 100%;
@@ -169,17 +167,17 @@ main {
     }
 
     hr {
-        border: 0.01rem solid rgb(148, 148, 148);
-        width: 10rem;
+        border: 1px solid rgb(148, 148, 148);
+        width: 100px;
     }
 
     #card_btn_enviar {
         position: absolute;
-        border-radius: 1.1rem;
-        width: 7rem;
-        height: 2.8rem;
-        margin-top: 13.6rem;
-        margin-left: 25rem;
+        bottom: 50px;
+        border-radius: 10px;
+        width: 70px;
+        height: 30px;
+        margin-left: 250px;
         border: none;
         color: white;
         background-color: rgb(255, 0, 85);
@@ -188,56 +186,20 @@ main {
     }
 
     .placeholder {
-        margin: 0.5rem 0rem 1rem 0rem;
+        margin: 5px 0 10px 0;
         height: 2rem;
         font-size: smaller;
-        padding-left: 1rem;
+        padding-left: 10px;
         color: rgb(97, 97, 97);
-        border-radius: 1rem;
+        border-radius: 10px;
         background-color: white;
-        border: 0.05rem solid rgb(226, 226, 226);
+        border: 1px solid rgb(226, 226, 226);
     }
 }
 
 .section__form--input {
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-
-.grid__store {
-    grid-area: grid__store;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.section__card_store{
-    border: 0.1rem solid rgb(226, 226, 226);
-    border-radius: 1.5rem;
-    height: 200rem;
-    width: 35rem;
-    margin: 5rem;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.4rem;
-    color: rgb(20, 20, 20);
-
-    &:hover {
-        box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 12px;
-    }
-
-    #card1 {
-        background-image: url(../proyecto_osorio_arbelaez/images/Taste\ of\ the\ wild.png);
-        height: auto;
-        width: 100%;
-        background-size:cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        z-index: 101;
-    }
-
-
-}
-

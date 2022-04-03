@@ -61,12 +61,14 @@ const mascotasEnAdopcion = [{
 },
 ];
 
-//Objeto constructor veterinarios
-function profesional(nombre, edad, profesion, especialidad) {
-    this.nombre = nombre;
-    this.edad = edad;
-    this.profesion = profesion;
-    this.especialidad = especialidad;
+//Constructor veterinarios
+class profesional {
+    constructor(nombre, edad, profesion, especialidad) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.profesion = profesion;
+        this.especialidad = especialidad;
+    }
 }
 
 //Profesionales
@@ -85,3 +87,5 @@ const apellido = document.querySelector("#apellido");
 const btnEnviar = document.querySelector('#card_btn_enviar');
 //Array de macotas
 const seleccionTamañoMascota = []
+
+

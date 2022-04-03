@@ -86,7 +86,7 @@ header {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin-top: 2.5rem;
+  margin-top: 22.5px;
 }
 
 .main__banner h1 {
@@ -94,8 +94,8 @@ header {
   padding-top: 20px;
   padding-right: 30px;
   width: 100%;
-  top: 4rem;
-  left: 80rem;
+  top: 40px;
+  left: 800px;
   color: #3e3e3e;
   font-weight: 500;
   font-size: 3.5rem;
@@ -120,11 +120,11 @@ header {
 .main__button {
   position: absolute;
   text-align: center;
-  right: 3rem;
-  top: 18rem;
-  border-radius: 1.3rem;
-  height: 3.2rem;
-  width: 12rem;
+  right: 30px;
+  top: 180px;
+  border-radius: 13px;
+  height: 32px;
+  width: 120px;
   background-color: #ff0055;
   color: white;
   font-size: 1.4rem;
@@ -151,7 +151,7 @@ main {
 main h2 {
   position: relative;
   margin-left: 50px;
-  top: 2rem;
+  top: 20px;
   z-index: 105;
   color: #ff0055;
   font-size: 3.5rem;
@@ -172,10 +172,10 @@ main h2 {
 }
 
 .section__card {
-  border: 0.1rem solid #e2e2e2;
-  border-radius: 1.5rem;
-  width: 35rem;
-  margin: 5rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  width: 350px;
+  margin: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,14 +193,13 @@ main h2 {
 }
 
 .section__card #iframe1 {
-  padding: 0rem;
-  border-radius: 1.5rem 1.5rem 0 0;
+  border-radius: 15px 15px 0 0;
   width: 100%;
 }
 
 .section__card #iframe2 {
-  margin-bottom: 17rem;
-  border-radius: 1.5rem 1.5rem 0 0;
+  margin-bottom: 170px;
+  border-radius: 15px 15px 0 0;
   width: 100%;
 }
 
@@ -210,8 +209,7 @@ main h2 {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  padding: 0rem;
-  border-radius: 1.5rem 0 0 0;
+  border-radius: 15px 0 0 0;
   width: 40%;
 }
 
@@ -229,17 +227,17 @@ main h2 {
 
 .section__card #card_break_line {
   position: relative;
-  top: -16rem;
-  margin-left: 1rem;
+  top: -160px;
+  margin-left: 10px;
 }
 
 .section__card #card_btn_solicitar {
-  position: absolute;
-  border-radius: 1.1rem;
-  width: 7rem;
-  height: 2.8rem;
-  margin-top: -45px;
-  margin-left: 26rem;
+  position: relative;
+  bottom: 18px;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  margin-left: 260px;
   border: none;
   color: white;
   background-color: #ff0055;
@@ -263,7 +261,7 @@ main h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 1rem;
+  margin: 10px;
 }
 
 .section__form:label {
@@ -273,17 +271,17 @@ main h2 {
 }
 
 .section__form hr {
-  border: 0.01rem solid #949494;
-  width: 10rem;
+  border: 1px solid #949494;
+  width: 100px;
 }
 
 .section__form #card_btn_enviar {
   position: absolute;
-  border-radius: 1.1rem;
-  width: 7rem;
-  height: 2.8rem;
-  margin-top: 13.6rem;
-  margin-left: 25rem;
+  bottom: 50px;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  margin-left: 250px;
   border: none;
   color: white;
   background-color: #ff0055;
@@ -292,18 +290,18 @@ main h2 {
 }
 
 .section__form .placeholder {
-  margin: 0.5rem 0rem 1rem 0rem;
+  margin: 5px 0 10px 0;
   height: 2rem;
   font-size: smaller;
-  padding-left: 1rem;
+  padding-left: 10px;
   color: #616161;
-  border-radius: 1rem;
+  border-radius: 10px;
   background-color: white;
-  border: 0.05rem solid #e2e2e2;
+  border: 1px solid #e2e2e2;
 }
 
 .section__form--input {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,19 +309,6 @@ main h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.grid__store {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  grid-area: grid__store;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
 }
 
 /* Footer */
@@ -398,6 +383,6 @@ hr {
       grid-template-rows: auto;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-      grid-template-areas: "grid__header" "bannerImg" "grid__section" "grid__footer" "grid__store";
+      grid-template-areas: "grid__header" "bannerImg" "grid__section" "grid__footer";
 }
 /*# sourceMappingURL=styles.css.map */
