@@ -79,11 +79,9 @@ let solicitudVeterinario = confirm("¿Desea solicitar un medico veterinario?");
 
 //DOM activar botón "¡Quiero adoptar!"
 const inputButton = document.querySelector("#inputButton");
-const gridSection = document.querySelector(".grid__section");
 //Local storage formulario
 const nombre = document.querySelector("#nombre");
 const apellido = document.querySelector("#apellido");
-const btnEnviar = document.querySelector('#enviar');
+const btnEnviar = document.querySelector('#card_btn_enviar');
 //Array de macotas
 const seleccionTamañoMascota = []
-

@@ -32,32 +32,21 @@ hr {
     margin: 0 auto;
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 4fr;
+    grid-template-columns: 1fr;
     grid-template-areas:
-        "grid__header grid__header grid__header grid__header"
-        "bannerImg bannerImg bannerImg bannerImg"
-        "grid__section grid__section grid__section grid__section"
-        "grid__footer grid__footer grid__footer grid__footer";
+        "grid__header"
+        "bannerImg"
+        "grid__section"
+        "grid__footer"
+        "grid__store";
 }
 
-.grid__header {
-    grid-area: grid__header;
-    /* background-color: chartreuse; */
-}
 
-#bannerImg {
-    grid-area: bannerImg;
-}
 
-.grid__section {
-    grid-area: grid__section;
-    /* background-color: rgb(145, 237, 253); */
-}
 
-.grid__footer {
-    grid-area: grid__footer;
-    /* background-color: cornflowerblue; */
-}
+
+
+
 
 
 

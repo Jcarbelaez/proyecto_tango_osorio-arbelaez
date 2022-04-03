@@ -11,6 +11,12 @@ header {
 
 }
 
+.grid__header {
+    grid-area: grid__header;
+    z-index: 100;
+    /* background-color: chartreuse; */
+}
+
 .header__logo {
     margin-left: 3rem;
     width: 20rem;
@@ -36,9 +42,9 @@ header {
         margin-right: 10rem;
 
         &:hover {
-            text-decoration: overline;
+            text-decoration: underline;
             list-style-type: none;
-            color: rgb(224, 0, 86);
+            color: rgb(255, 0, 85);
             display: inline-flex;
             font-size: 1.8rem;
             font-weight: 500;

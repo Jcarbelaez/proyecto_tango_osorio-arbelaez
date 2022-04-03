@@ -8,6 +8,12 @@ footer {
 
 }
 
+.grid__footer {
+    grid-area: grid__footer;
+    justify-content: center;
+    /* background-color: cornflowerblue; */
+}
+
 .footer__navigation {
     width: 100%;
 

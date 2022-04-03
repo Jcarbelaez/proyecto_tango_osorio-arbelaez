@@ -15,4 +15,3 @@ const limpiarDatos = () => {
 
 btnEnviar.addEventListener('click', () => almacenarDatos());
 
-rescatarDatos()

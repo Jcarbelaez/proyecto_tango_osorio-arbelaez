@@ -30,7 +30,7 @@ while (!solicitudVeterinario) {
 //Funcion botón "¡Quiero adoptar!"
 const botonTrigger = () => {
     inputButton.addEventListener("click", () => {
-        debugger
+        // debugger
         inputButton.value = "    ¡Genial!    ";
         let confirmacionBusqueda = confirm("¿Desea iniciar el proceso de adopción?");
         if (confirmacionBusqueda == true) {
@@ -44,8 +44,7 @@ const botonTrigger = () => {
     })
 };
 
-botonTrigger()
-
+botonTrigger();
 
 
 
@@ -59,7 +58,7 @@ botonTrigger()
 //   const prueba = hello.join ("");
 //   const prueba2 = world.join ("");
 //   const concatenar = `${prueba} ${prueba2}`
-  
+
 
 
 //   return concatenar
@@ -84,7 +83,7 @@ botonTrigger()
 // console.log(average);
 // const result = average <= n ? true : false
 // return result
-   
+
 // }
 
 // console.log(operacion(50));
