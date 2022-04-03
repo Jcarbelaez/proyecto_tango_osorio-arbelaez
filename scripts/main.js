@@ -5,13 +5,13 @@ if (solicitudVeterinario == true) {
 
     switch (seleccioneUnProfesional) {
         case 1:
-            alert(`El profesional asignado es: ${profesional1.nombre}. ${profesional1.profesion}. ${profesional1.especialidad}`);
+            alert (`${profesional1.informacionProfesional()}`);
             break;
         case 2:
-            alert(`El profesional asignado es: ${profesional2.nombre}. ${profesional2.profesion}. ${profesional2.especialidad}`);
+            alert (`${profesional2.informacionProfesional()}`);
             break;
         case 3:
-            alert(`El profesional asignado es: ${profesional3.nombre}. ${profesional3.profesion}. ${profesional3.especialidad}`);
+            alert (`${profesional3.informacionProfesional()}`);
             break;
         default:
             alert("El valor ingresado no es válido.");
@@ -25,6 +25,8 @@ while (!solicitudVeterinario) {
     alert("Ok. Hasta una próxima vez.");
     break;
 };
+
+
 
 
 //Funcion botón "¡Quiero adoptar!"

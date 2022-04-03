@@ -62,22 +62,32 @@ const mascotasEnAdopcion = [{
 ];
 
 //Constructor veterinarios
-class profesional {
-    constructor(nombre, edad, profesion, especialidad) {
+class Profesional {
+    constructor(id,nombre, edad, profesion, especialidad) {
+        this.id = id;
         this.nombre = nombre;
         this.edad = edad;
         this.profesion = profesion;
         this.especialidad = especialidad;
     }
+
+    //Metodo de la clase
+    informacionProfesional() {
+        return `El profesional asignado es: ${this.nombre}. Edad: ${this.edad}. Profesion: ${this.profesion}. Especialidad: ${this.especialidad}`;
+    }
 }
 
 //Profesionales
-const profesional1 = new profesional("Faustino Asprilla", 33, "Veterinario", "Ortopedista");
-const profesional2 = new profesional("Carlos Valderrama", 35, "Veterinario", "Fisioterapeuta");
-const profesional3 = new profesional("René Higuita", 32, "Veterinario", "Cirujano");
+
+const profesional1 = new Profesional(1, "Faustino Asprilla", 33, "Veterinario", "Ortopedista");
+const profesional2 = new Profesional(2, "Carlos Valderrama", 35, "Veterinario", "Fisioterapeuta");
+const profesional3 = new Profesional(3, "René Higuita", 32, "Veterinario", "Cirujano");
 
 //Prompt inicial
 let solicitudVeterinario = confirm("¿Desea solicitar un medico veterinario?");
+
+//Dropdown list veterinairos
+
 
 //DOM activar botón "¡Quiero adoptar!"
 const inputButton = document.querySelector("#inputButton");
