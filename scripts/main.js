@@ -27,8 +27,6 @@ while (!solicitudVeterinario) {
 };
 
 
-
-
 //Funcion botón "¡Quiero adoptar!"
 const botonTrigger = () => {
     inputButton.addEventListener("click", () => {
